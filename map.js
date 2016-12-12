@@ -1,4 +1,4 @@
-var people = ['Bob', 'Jen', 'James', 'Isolde'];
+var people = ['Bob', 'Jen', 'James', 'Isolde']
 
 // Your code here!
 
@@ -8,3 +8,8 @@ var people = ['Bob', 'Jen', 'James', 'Isolde'];
 // console.log(people);
 // > [ 'BOB', 'JEN', 'JAMES', 'ISOLDE' ]
 
+var cased = people.map(function (person, index, array) {
+  return person.toUpperCase()
+})
+
+console.log(cased)
